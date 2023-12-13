@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForestCrazy Profile</title>
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .card {
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            box-shadow: 5px 6px 6px 2px #e9ecef;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-0">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item p-4">
+                        <a class="text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item p-4">
+                        <a class="text-dark" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item p-4">
+                        <a class="text-purple-400" aria-current="page" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item p-4">
+                        <a class="text-dark" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <div class="container h-75">
+        <!-- Content -->
+        <div class="section">
+            <div class="text-center fs-2 fw-bold">
+                Skills
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="data:image/png;base64,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" />
+                            <h5>Laravel</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/689/689319.png" />
+                            <h5>Database</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/5266/5266429.png" />
+                            <h5>DevOps</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/6577/6577289.png" />
+                            <h5>Version Control</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/2808/2808331.png" />
+                            <h5>IOT</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="data:image/png;base64,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" />
+                            <h5>Svelte</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/174/174854.png" />
+                            <h5>HTML</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" />
+                            <h5>CSS</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" />
+                            <h5>JavaScript</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/919/919830.png" />
+                            <h5>PHP</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" />
+                            <h5>SQL</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" />
+                            <h5>Python</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" />
+                            <h5>Bootstrap</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://cdn-icons-png.flaticon.com/512/919/919851.png" />
+                            <h5>React</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://img.icons8.com/color/344/ionic.png" />
+                            <h5>Ionic</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100"
+                                src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png" />
+                            <h5>MongoDB</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://img.icons8.com/ios-filled/344/jquery.png" />
+                            <h5>Jquery</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <img class="w-100" src="https://img.icons8.com/fluency/344/node-js.png" />
+                            <h5>Node JS</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
